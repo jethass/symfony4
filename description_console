@@ -13,6 +13,8 @@ composer require validator //validator pour les form
 composer require symfony/orm-pack   //doctrine orm
 composer require asset
 composer require encore //bundle qui remplace asset et qui utilise webpack, il faut configurer le entry/output et loader sass
+composer require symfony/form  //pour les forms
+
 
 
 /*** commande console*****/
