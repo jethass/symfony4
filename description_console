@@ -21,6 +21,9 @@ composer require symfony/form  //pour les forms
 //start server local
 php bin/console server:run
 
+//vide le cache
+php bin/console cache:clear
+
 //regarder les injection autowiré
 php bin/console debug:autowiring
 
