@@ -18,6 +18,9 @@ composer require symfony/form  //pour les forms
 
 
 /*** commande console*****/
+// voir la config par defaut d'un bundle
+php bin/console debug:config FrameworkBundle
+
 //start server local
 php bin/console server:run
 
