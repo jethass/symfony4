@@ -21,6 +21,12 @@ composer require symfony/form  //pour les forms
 // voir la config par defaut d'un bundle
 php bin/console debug:config FrameworkBundle
 
+//debuger un service
+php bin/console debug:container nomservice
+
+//debuger autowiring d'un service
+php bin/console debug:autowiring nomservice
+
 //start server local
 php bin/console server:run
 
