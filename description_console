@@ -20,6 +20,9 @@ composer require symfony/form  //pour les forms
 /*** commande console*****/
 php bin/console ==> donne tous les commandes
 
+//voir les routes
+php bin/console debug:router 
+
 // voir la config par defaut d'un bundle
 php bin/console debug:config FrameworkBundle
 
