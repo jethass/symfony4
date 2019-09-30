@@ -53,8 +53,8 @@ php bin/console make:form Post
 //creation base de donné:
  php bin/console doctrine:database:create
  
-//génère la migration de la base de donnée
-php bin/console make:migration
+//génère fichier de migration diff de l'entité
+php bin/console doctrine:migrations:diff
 
 //excute la migration
 php bin/console doctrine:migrations:migrate
